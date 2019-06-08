@@ -23,7 +23,7 @@
       // Line 1 - Rotate
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
-        background: #eece1a;
+        background: $secondary-color;
       }
 
       // Line 2 - Hide
@@ -34,7 +34,7 @@
       // Line 3 - Rotate
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
-        background: #eece1a;
+        background: $secondary-color;
       }
     }
   }
@@ -92,7 +92,7 @@
       width: 250px;
       height: 250px;
       background: url('../img/portrait.jpg');
-      background-size: cover;
+      background-size: 100% 100%;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
